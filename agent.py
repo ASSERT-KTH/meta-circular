@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Minimal coding agent backed by any OpenAI-compatible chat completions API."""
+"""Minimal coding agent backed by any OpenAI-compatible chat completions API.
+Implemented from spec.md
+"""
 
 import argparse
 import fnmatch
