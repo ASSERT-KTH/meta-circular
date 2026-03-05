@@ -6,9 +6,16 @@
 
 > implement the spec in a single python file
 
+```
+$ python agent.py 
+usage: agent.py [-h] [--model MODEL] [--base-url BASE_URL] [--api-key API_KEY] [--max-turns MAX_TURNS] [--cwd CWD] [task]
+```
+
 **Step 3: self-implementation.** The newly generated agent is given the same specification and asked to implement it again. It succeeds. The agent reimplements itself. Meta-circularity ✓.
 
-> implement the spec in a single python file
+```
+$ python agent.py "implement the spec in a single python file"
+```
 
 See post [The Coding Agent Bootstrap](https://www.monperrus.net/martin/coding-agent-bootstrap)
 
