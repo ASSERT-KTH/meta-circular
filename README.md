@@ -1,5 +1,17 @@
 # The meta-circular coding agent
 
+See paper [Bootstrapping Coding Agents: The Specification Is the Program}](http://arxiv.org/pdf/2603.17399).
+```bibtex
+@techreport{2603.17399,
+ title = {Bootstrapping Coding Agents: The Specification Is the Program},
+ year = {2026},
+ author = {Martin Monperrus},
+ url = {http://arxiv.org/pdf/2603.17399},
+ number = {2603.17399},
+ institution = {arXiv},
+}
+```
+
 **Step 1: specification.** We write a specification for a coding agent. The resulting [spec](https://github.com/ASSERT-KTH/meta-circular/blob/main/spec.md)t defines the agent's interface, its expected behavior, and the constraints it must respect.
 
 **Step 2: first implementation.** Claude Code implements the spec (model Sonnet 4.6). The result is a perfectly working Python program ([agent.py](https://github.com/ASSERT-KTH/meta-circular/blob/main/agent.py)).
