@@ -2,13 +2,15 @@
 
 See paper [Bootstrapping Coding Agents: The Specification Is the Program}](http://arxiv.org/pdf/2603.17399).
 ```bibtex
-@techreport{2603.17399,
+@article{bootstrapping-agent,
  title = {Bootstrapping Coding Agents: The Specification Is the Program},
  year = {2026},
  author = {Martin Monperrus},
  url = {http://arxiv.org/pdf/2603.17399},
- number = {2603.17399},
- institution = {arXiv},
+ journal = {IEEE Software},
+ volume = {43},
+ issue = {4},
+ doi = {10.1109/ms.2026.3687051},
 }
 ```
 
