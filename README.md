@@ -2,12 +2,6 @@
 
 See  [Bootstrapping Coding Agents: The Specification Is the Program](http://oadoi.org/10.1109/ms.2026.3687051), In IEEE Software, volume 43, 2026.
 
-Martin Monperrus  
-March 2026
-
-## Concept
-
-See paper [Bootstrapping Coding Agents: The Specification Is the Program}](http://arxiv.org/pdf/2603.17399).
 ```bibtex
 @article{bootstrapping-agent,
  title = {Bootstrapping Coding Agents: The Specification Is the Program},
@@ -20,6 +14,12 @@ See paper [Bootstrapping Coding Agents: The Specification Is the Program}](http:
  doi = {10.1109/ms.2026.3687051},
 }
 ```
+
+Martin Monperrus  
+March 2026
+
+## Concept
+
 
 **Step 1: specification.** We write a specification for a coding agent. The resulting [spec](https://github.com/ASSERT-KTH/meta-circular/blob/main/spec.md)t defines the agent's interface, its expected behavior, and the constraints it must respect.
 
