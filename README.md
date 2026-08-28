@@ -1,4 +1,11 @@
-# The meta-circular coding agent
+# The meta-circular bootstrapped coding agent
+
+See  [Bootstrapping Coding Agents: The Specification Is the Program](http://oadoi.org/10.1109/ms.2026.3687051), In IEEE Software, volume 43, 2026.
+
+Martin Monperrus  
+March 2026
+
+## Concept
 
 See paper [Bootstrapping Coding Agents: The Specification Is the Program}](http://arxiv.org/pdf/2603.17399).
 ```bibtex
@@ -31,7 +38,6 @@ usage: agent.py [-h] [--model MODEL] [--base-url BASE_URL] [--api-key API_KEY] [
 $ python agent.py "implement the spec in a single python file"
 ```
 
-See post [The Coding Agent Bootstrap](https://www.monperrus.net/martin/coding-agent-bootstrap)
+## Changelog
 
-Martin Monperrus  
-March 2026
+The spec could actually be made simpler, see [spec-simpler](https://github.com/ASSERT-KTH/meta-circular/blob/main/spec-simpler.md) with tools `list_files` and `search_text` removed.
